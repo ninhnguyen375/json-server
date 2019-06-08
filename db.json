@@ -1,120 +1,514 @@
 {
+  "users": [
+    {
+      "id": "1",
+      "fistname": "John",
+      "lastname": "Smith",
+      "username": "admin",
+      "password": "admin"
+    },
+    {
+      "firstname": "cuong",
+      "lastname": "le minh",
+      "username": "leminhcuong298",
+      "password": "1",
+      "pre_password": "1",
+      "id": "SNVbVY1"
+    },
+    {
+      "firstname": "cuong",
+      "lastname": "le minh",
+      "username": "leminhcuong2988",
+      "password": "1",
+      "pre_password": "1",
+      "id": "1hlRZgX"
+    }
+  ],
   "products": [
     {
       "id": 1,
-      "name": "iPhone 5",
-      "img": "https://picsum.photos/237/237",
-      "price": 300,
-      "quantity": 5
+      "name": "Chef Hat 20cm",
+      "price": 32,
+      "quantity": 77,
+      "img": "https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/lg/lg-q7-plus/moroccan-blue/LG-Q7_Plus-Moroccan_Blue-1-3x.jpg",
+      "category": "phone"
     },
     {
       "id": 2,
-      "name": "iPhone X",
-      "img": "https://picsum.photos/237/237",
-      "price": 900,
-      "quantity": 5
+      "name": "Energy Drink Bawls",
+      "price": 33,
+      "quantity": 20,
+      "img": "https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/apple/apple-iphone-xr/blue/Apple-iPhoneXr-Blue-1-3x.jpg",
+      "category": "phone"
     },
     {
       "id": 3,
-      "name": "iPhone 8",
-      "img": "https://picsum.photos/237/237",
-      "price": 500,
-      "quantity": 5
+      "name": "Dasheen",
+      "price": 38,
+      "quantity": 36,
+      "img": "https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/lg/lg-q7-plus/moroccan-blue/LG-Q7_Plus-Moroccan_Blue-1-3x.jpg",
+      "category": "phone"
     },
     {
       "id": 4,
-      "name": "Nokia 7",
-      "img": "https://picsum.photos/237/237",
-      "price": 300,
-      "quantity": 5
+      "name": "Nougat - Paste / Cream",
+      "price": 11,
+      "quantity": 2,
+      "img": "http://www.three.co.uk/cs/Satellite?blobkey=id&blobwhere=1400959012411&blobcol=urldata&blobtable=MungoBlobs",
+      "category": "phone"
     },
     {
       "id": 5,
-      "name": "Sony XS",
-      "img": "https://picsum.photos/237/237",
-      "price": 900,
-      "quantity": 5
+      "name": "Basil - Fresh",
+      "price": 86,
+      "quantity": 75,
+      "img": "http://www.three.co.uk/cs/Satellite?blobkey=id&blobwhere=1400959012411&blobcol=urldata&blobtable=MungoBlobs",
+      "category": "phone"
     },
     {
       "id": 6,
-      "name": "iPhone SE",
-      "img": "https://picsum.photos/237/237",
-      "price": 500,
-      "quantity": 5
+      "name": "Pike - Frozen Fillet",
+      "price": 21,
+      "quantity": 9,
+      "img": "https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/lg/lg-q7-plus/moroccan-blue/LG-Q7_Plus-Moroccan_Blue-1-3x.jpg",
+      "category": "phone"
+    },
+    {
+      "id": 7,
+      "name": "Wine - Ice Wine",
+      "price": 60,
+      "quantity": 37,
+      "img": "https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/apple/apple-iphone-xr/blue/Apple-iPhoneXr-Blue-1-3x.jpg",
+      "category": "phone"
+    },
+    {
+      "id": 8,
+      "name": "Muffin Mix - Lemon Cranberry",
+      "price": 45,
+      "quantity": 5,
+      "img": "http://www.three.co.uk/cs/Satellite?blobkey=id&blobwhere=1400959012411&blobcol=urldata&blobtable=MungoBlobs",
+      "category": "phone"
+    },
+    {
+      "id": 9,
+      "name": "Bagel - Ched Chs Presliced",
+      "price": 59,
+      "quantity": 71,
+      "img": "https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/apple/apple-iphone-xr/blue/Apple-iPhoneXr-Blue-1-3x.jpg",
+      "category": "phone"
+    },
+    {
+      "id": 10,
+      "name": "Liquid Aminios Acid - Braggs",
+      "price": 61,
+      "quantity": 67,
+      "img": "https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/apple/apple-iphone-xr/blue/Apple-iPhoneXr-Blue-1-3x.jpg",
+      "category": "phone"
+    },
+    {
+      "id": 11,
+      "name": "Soup - Campbells Chicken",
+      "price": 97,
+      "quantity": 50,
+      "img": "https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/apple/apple-iphone-xr/blue/Apple-iPhoneXr-Blue-1-3x.jpg",
+      "category": "phone"
+    },
+    {
+      "id": 12,
+      "name": "Carrots - Mini Red Organic",
+      "price": 97,
+      "quantity": 66,
+      "img": "https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/lg/lg-q7-plus/moroccan-blue/LG-Q7_Plus-Moroccan_Blue-1-3x.jpg",
+      "category": "phone"
+    },
+    {
+      "id": 13,
+      "name": "Marjoram - Fresh",
+      "price": 55,
+      "quantity": 16,
+      "img": "https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/apple/apple-iphone-xr/blue/Apple-iPhoneXr-Blue-1-3x.jpg",
+      "category": "phone"
+    },
+    {
+      "id": 14,
+      "name": "Pork - Tenderloin, Fresh",
+      "price": 63,
+      "quantity": 35,
+      "img": "http://www.three.co.uk/cs/Satellite?blobkey=id&blobwhere=1400959012411&blobcol=urldata&blobtable=MungoBlobs",
+      "category": "phone"
+    },
+    {
+      "id": 15,
+      "name": "Chocolate - Chips Compound",
+      "price": 32,
+      "quantity": 69,
+      "img": "http://www.three.co.uk/cs/Satellite?blobkey=id&blobwhere=1400959012411&blobcol=urldata&blobtable=MungoBlobs",
+      "category": "phone"
+    },
+    {
+      "id": 16,
+      "name": "Veal - Inside",
+      "price": 63,
+      "quantity": 78,
+      "img": "http://www.three.co.uk/cs/Satellite?blobkey=id&blobwhere=1400959012411&blobcol=urldata&blobtable=MungoBlobs",
+      "category": "phone"
+    },
+    {
+      "id": 17,
+      "name": "Wine - Barolo Fontanafredda",
+      "price": 83,
+      "quantity": 46,
+      "img": "https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/apple/apple-iphone-xr/blue/Apple-iPhoneXr-Blue-1-3x.jpg",
+      "category": "phone"
+    },
+    {
+      "id": 18,
+      "name": "Oil - Margarine",
+      "price": 3,
+      "quantity": 5,
+      "img": "http://www.three.co.uk/cs/Satellite?blobkey=id&blobwhere=1400959012411&blobcol=urldata&blobtable=MungoBlobs",
+      "category": "phone"
+    },
+    {
+      "id": 19,
+      "name": "Eggplant Oriental",
+      "price": 60,
+      "quantity": 6,
+      "img": "https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/lg/lg-q7-plus/moroccan-blue/LG-Q7_Plus-Moroccan_Blue-1-3x.jpg",
+      "category": "phone"
+    },
+    {
+      "id": 20,
+      "name": "Rabbit - Whole",
+      "price": 73,
+      "quantity": 35,
+      "img": "https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/lg/lg-q7-plus/moroccan-blue/LG-Q7_Plus-Moroccan_Blue-1-3x.jpg",
+      "category": "phone"
+    },
+    {
+      "id": 21,
+      "name": "Sauce - Black Current, Dry Mix",
+      "price": 49,
+      "quantity": 45,
+      "img": "http://www.three.co.uk/cs/Satellite?blobkey=id&blobwhere=1400959012411&blobcol=urldata&blobtable=MungoBlobs",
+      "category": "phone"
+    },
+    {
+      "id": 22,
+      "name": "Onions - Red Pearl",
+      "price": 71,
+      "quantity": 6,
+      "img": "http://www.three.co.uk/cs/Satellite?blobkey=id&blobwhere=1400959012411&blobcol=urldata&blobtable=MungoBlobs",
+      "category": "phone"
+    },
+    {
+      "id": 23,
+      "name": "Chinese Foods - Pepper Beef",
+      "price": 79,
+      "quantity": 32,
+      "img": "https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/lg/lg-q7-plus/moroccan-blue/LG-Q7_Plus-Moroccan_Blue-1-3x.jpg",
+      "category": "phone"
+    },
+    {
+      "id": 24,
+      "name": "Beer - Muskoka Cream Ale",
+      "price": 3,
+      "quantity": 31,
+      "img": "https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/lg/lg-q7-plus/moroccan-blue/LG-Q7_Plus-Moroccan_Blue-1-3x.jpg",
+      "category": "phone"
+    },
+    {
+      "id": 25,
+      "name": "Glove - Cutting",
+      "price": 19,
+      "quantity": 69,
+      "img": "http://www.three.co.uk/cs/Satellite?blobkey=id&blobwhere=1400959012411&blobcol=urldata&blobtable=MungoBlobs",
+      "category": "phone"
+    },
+    {
+      "id": 26,
+      "name": "Lemonade - Natural, 591 Ml",
+      "price": 41,
+      "quantity": 65,
+      "img": "https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/apple/apple-iphone-xr/blue/Apple-iPhoneXr-Blue-1-3x.jpg",
+      "category": "phone"
+    },
+    {
+      "id": 27,
+      "name": "Edible Flower - Mixed",
+      "price": 95,
+      "quantity": 16,
+      "img": "https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/lg/lg-q7-plus/moroccan-blue/LG-Q7_Plus-Moroccan_Blue-1-3x.jpg",
+      "category": "phone"
+    },
+    {
+      "id": 28,
+      "name": "Milk - 1%",
+      "price": 70,
+      "quantity": 53,
+      "img": "https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/lg/lg-q7-plus/moroccan-blue/LG-Q7_Plus-Moroccan_Blue-1-3x.jpg",
+      "category": "phone"
+    },
+    {
+      "id": 29,
+      "name": "Longos - Chicken Wings",
+      "price": 9,
+      "quantity": 10,
+      "img": "http://www.three.co.uk/cs/Satellite?blobkey=id&blobwhere=1400959012411&blobcol=urldata&blobtable=MungoBlobs",
+      "category": "phone"
+    },
+    {
+      "id": 30,
+      "name": "Soup - Knorr, French Onion",
+      "price": 99,
+      "quantity": 79,
+      "img": "https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/lg/lg-q7-plus/moroccan-blue/LG-Q7_Plus-Moroccan_Blue-1-3x.jpg",
+      "category": "phone"
     }
   ],
-  "cart": [
+  "orders": [
     {
-      "auth": 3,
-      "products": [],
-      "id": 1
-    },
-    {
-      "auth": 0,
-      "products": [],
-      "id": 2
-    }
-  ],
-  "users": [
-    {
-      "id": 0,
-      "name": "Ninh",
-      "email": "ninh@gmail.com",
-      "permission": 0,
-      "password": "111111"
-    },
-    {
-      "id": 1,
-      "name": "Phong",
-      "email": "phong@gmail.com",
-      "permission": 1,
-      "password": "111111"
-    },
-    {
-      "name": "aaaaa",
-      "email": "aaaaa@gmail.com",
-      "password": "111111",
-      "permission": 1,
-      "id": 2
-    },
-    {
-      "email": "ninh22@gmail.com",
-      "name": "ninh22",
-      "password": "111111",
-      "permission": 1,
-      "id": 3
-    }
-  ],
-  "permission": [
-    {
-      "id": 0,
-      "permission_name": "admin",
-      "access": [
+      "idUser": "1",
+      "order": [
         {
-          "products": true,
-          "users": true
+          "id": 1,
+          "name": "Chef Hat 20cm",
+          "price": 32,
+          "quantity": 77,
+          "img": "https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/lg/lg-q7-plus/moroccan-blue/LG-Q7_Plus-Moroccan_Blue-1-3x.jpg",
+          "category": "phone",
+          "amount": 1
+        },
+        {
+          "id": 2,
+          "name": "Energy Drink Bawls",
+          "price": 33,
+          "quantity": 20,
+          "img": "https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/apple/apple-iphone-xr/blue/Apple-iPhoneXr-Blue-1-3x.jpg",
+          "category": "phone",
+          "amount": 1
+        },
+        {
+          "id": 3,
+          "name": "Dasheen",
+          "price": 38,
+          "quantity": 36,
+          "img": "https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/lg/lg-q7-plus/moroccan-blue/LG-Q7_Plus-Moroccan_Blue-1-3x.jpg",
+          "category": "phone",
+          "amount": 1
+        },
+        {
+          "id": 4,
+          "name": "Nougat - Paste / Cream",
+          "price": 11,
+          "quantity": 2,
+          "img": "http://www.three.co.uk/cs/Satellite?blobkey=id&blobwhere=1400959012411&blobcol=urldata&blobtable=MungoBlobs",
+          "category": "phone",
+          "amount": 1
         }
-      ]
+      ],
+      "date": "6/8/2019",
+      "time": "12:29:01 PM",
+      "status": "0",
+      "id": "ecutew_"
     },
     {
-      "id": 1,
-      "permission_name": "client",
-      "access": [
+      "idUser": "1",
+      "order": [
         {
-          "products": false,
-          "users": false
+          "id": 1,
+          "name": "Chef Hat 20cm",
+          "price": 32,
+          "quantity": 77,
+          "img": "https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/lg/lg-q7-plus/moroccan-blue/LG-Q7_Plus-Moroccan_Blue-1-3x.jpg",
+          "category": "phone",
+          "amount": 1
+        },
+        {
+          "id": 2,
+          "name": "Energy Drink Bawls",
+          "price": 33,
+          "quantity": 20,
+          "img": "https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/apple/apple-iphone-xr/blue/Apple-iPhoneXr-Blue-1-3x.jpg",
+          "category": "phone",
+          "amount": 1
+        },
+        {
+          "id": 3,
+          "name": "Dasheen",
+          "price": 38,
+          "quantity": 36,
+          "img": "https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/lg/lg-q7-plus/moroccan-blue/LG-Q7_Plus-Moroccan_Blue-1-3x.jpg",
+          "category": "phone",
+          "amount": 1
+        },
+        {
+          "id": 4,
+          "name": "Nougat - Paste / Cream",
+          "price": 11,
+          "quantity": 2,
+          "img": "http://www.three.co.uk/cs/Satellite?blobkey=id&blobwhere=1400959012411&blobcol=urldata&blobtable=MungoBlobs",
+          "category": "phone",
+          "amount": 1
+        },
+        {
+          "id": 5,
+          "name": "Basil - Fresh",
+          "price": 86,
+          "quantity": 75,
+          "img": "http://www.three.co.uk/cs/Satellite?blobkey=id&blobwhere=1400959012411&blobcol=urldata&blobtable=MungoBlobs",
+          "category": "phone",
+          "amount": 1
+        },
+        {
+          "id": 6,
+          "name": "Pike - Frozen Fillet",
+          "price": 21,
+          "quantity": 9,
+          "img": "https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/lg/lg-q7-plus/moroccan-blue/LG-Q7_Plus-Moroccan_Blue-1-3x.jpg",
+          "category": "phone",
+          "amount": 1
+        },
+        {
+          "id": 7,
+          "name": "Wine - Ice Wine",
+          "price": 60,
+          "quantity": 37,
+          "img": "https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/apple/apple-iphone-xr/blue/Apple-iPhoneXr-Blue-1-3x.jpg",
+          "category": "phone",
+          "amount": 1
+        },
+        {
+          "id": 8,
+          "name": "Muffin Mix - Lemon Cranberry",
+          "price": 45,
+          "quantity": 5,
+          "img": "http://www.three.co.uk/cs/Satellite?blobkey=id&blobwhere=1400959012411&blobcol=urldata&blobtable=MungoBlobs",
+          "category": "phone",
+          "amount": 1
         }
-      ]
+      ],
+      "date": "6/8/2019",
+      "time": "12:32:58 PM",
+      "status": "0",
+      "id": "MGcuAtP"
     },
     {
-      "id": 2,
-      "permission_name": "manager",
-      "access": [
+      "idUser": "1hlRZgX",
+      "order": [
         {
-          "products": true,
-          "users": false
+          "id": 1,
+          "name": "Chef Hat 20cm",
+          "price": 32,
+          "quantity": 77,
+          "img": "https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/lg/lg-q7-plus/moroccan-blue/LG-Q7_Plus-Moroccan_Blue-1-3x.jpg",
+          "category": "phone",
+          "amount": "2"
+        },
+        {
+          "id": 2,
+          "name": "Energy Drink Bawls",
+          "price": 33,
+          "quantity": 20,
+          "img": "https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/apple/apple-iphone-xr/blue/Apple-iPhoneXr-Blue-1-3x.jpg",
+          "category": "phone",
+          "amount": 1
+        },
+        {
+          "id": 3,
+          "name": "Dasheen",
+          "price": 38,
+          "quantity": 36,
+          "img": "https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/lg/lg-q7-plus/moroccan-blue/LG-Q7_Plus-Moroccan_Blue-1-3x.jpg",
+          "category": "phone",
+          "amount": 1
+        },
+        {
+          "id": 4,
+          "name": "Nougat - Paste / Cream",
+          "price": 11,
+          "quantity": 2,
+          "img": "http://www.three.co.uk/cs/Satellite?blobkey=id&blobwhere=1400959012411&blobcol=urldata&blobtable=MungoBlobs",
+          "category": "phone",
+          "amount": 1
+        },
+        {
+          "id": 9,
+          "name": "Bagel - Ched Chs Presliced",
+          "price": 59,
+          "quantity": 71,
+          "img": "https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/apple/apple-iphone-xr/blue/Apple-iPhoneXr-Blue-1-3x.jpg",
+          "category": "phone",
+          "amount": 1
+        },
+        {
+          "id": 10,
+          "name": "Liquid Aminios Acid - Braggs",
+          "price": 61,
+          "quantity": 67,
+          "img": "https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/apple/apple-iphone-xr/blue/Apple-iPhoneXr-Blue-1-3x.jpg",
+          "category": "phone",
+          "amount": 1
+        },
+        {
+          "id": 11,
+          "name": "Soup - Campbells Chicken",
+          "price": 97,
+          "quantity": 50,
+          "img": "https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/apple/apple-iphone-xr/blue/Apple-iPhoneXr-Blue-1-3x.jpg",
+          "category": "phone",
+          "amount": 1
+        },
+        {
+          "id": 12,
+          "name": "Carrots - Mini Red Organic",
+          "price": 97,
+          "quantity": 66,
+          "img": "https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/lg/lg-q7-plus/moroccan-blue/LG-Q7_Plus-Moroccan_Blue-1-3x.jpg",
+          "category": "phone",
+          "amount": 1
+        },
+        {
+          "id": 17,
+          "name": "Wine - Barolo Fontanafredda",
+          "price": 83,
+          "quantity": 46,
+          "img": "https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/apple/apple-iphone-xr/blue/Apple-iPhoneXr-Blue-1-3x.jpg",
+          "category": "phone",
+          "amount": 1
+        },
+        {
+          "id": 18,
+          "name": "Oil - Margarine",
+          "price": 3,
+          "quantity": 5,
+          "img": "http://www.three.co.uk/cs/Satellite?blobkey=id&blobwhere=1400959012411&blobcol=urldata&blobtable=MungoBlobs",
+          "category": "phone",
+          "amount": 1
+        },
+        {
+          "id": 19,
+          "name": "Eggplant Oriental",
+          "price": 60,
+          "quantity": 6,
+          "img": "https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/lg/lg-q7-plus/moroccan-blue/LG-Q7_Plus-Moroccan_Blue-1-3x.jpg",
+          "category": "phone",
+          "amount": "6"
+        },
+        {
+          "id": 20,
+          "name": "Rabbit - Whole",
+          "price": 73,
+          "quantity": 35,
+          "img": "https://cdn.tmobile.com/content/dam/t-mobile/en-p/cell-phones/lg/lg-q7-plus/moroccan-blue/LG-Q7_Plus-Moroccan_Blue-1-3x.jpg",
+          "category": "phone",
+          "amount": "4"
         }
-      ]
+      ],
+      "date": "6/8/2019",
+      "time": "2:28:03 PM",
+      "status": "0",
+      "id": "ox7R0MI"
     }
   ]
 }
